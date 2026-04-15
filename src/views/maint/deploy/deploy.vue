@@ -166,14 +166,12 @@ export default {
           title: '',
           message: data.msg,
           type: 'success',
-          dangerouslyUseHTMLString: true,
           duration: 5500
         })
       } else if (data.msgType === 'ERROR') {
         this.$notify({
           title: '',
           message: data.msg,
-          dangerouslyUseHTMLString: true,
           type: 'error',
           duration: 0
         })
